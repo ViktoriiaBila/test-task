@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './searchBar.scss';
 
 export function SearchBar(): JSX.Element {
   const [searchValue, setSearchValue] = useState<string>('');
