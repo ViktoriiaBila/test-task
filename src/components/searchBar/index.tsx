@@ -20,6 +20,7 @@ export function SearchBar(): JSX.Element {
 
   const clearBtnClickHandler = (): void => {
     setSearchValue('');
+    setEmptySearchBar(true);
   };
 
   return (
