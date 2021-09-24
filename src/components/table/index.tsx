@@ -5,7 +5,12 @@ import '../../models/types';
 export function Table(props: ITableProps): JSX.Element {
   return (
     <table className="table">
-      <thead className="table__header"></thead>
+      <thead className="table__header">
+        <button className="table__header__reloadBtn" type="button">
+          <div className="table__header__reloadBtn__icon"></div>
+        </button>
+        <h2>Знайдено 8 клієнтів</h2>
+      </thead>
       <tbody className="table__body">
         <tr className="table__body__message">
           <td className="table__body__message__icon"></td>
